@@ -1,0 +1,35 @@
+body{
+    margin:  0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.todo{
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    margin: 5px;
+    padding: 10px;
+    width: 24%;
+    height: 10%;
+}
+
+input{
+    margin: 2px;
+    box-shadow: 1px 1px black;
+}
+
+.names{
+    align-self: auto;
+    padding: auto;
+    width:auto;
+    height: 20%;
+}
+
+li{
+    list-style-type: none;
+}
+
